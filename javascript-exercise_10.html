@@ -168,6 +168,20 @@ switch (color) {
     <script>
       const onSolution = () => {
         /* todo remove this line and start your answer */
+        let color = prompt('Enter tour favorite color:');
+        switch(color){
+          case 'red':
+          case 'salmon':
+          case 'tomato':
+          case 'crimson':alert(`${ color} is part of the red tree`);break;
+          case 'green':
+          case 'lime':
+          case 'teal':alert(`${ color} is part of the green tree`);break;
+          case 'gold':
+          case 'yellow':
+          case 'khaki': alert(`${ color} is part of the yellow tree`);break;
+          default:alert('Is that a new color:');
+        }
       };
     </script>
     <script>
