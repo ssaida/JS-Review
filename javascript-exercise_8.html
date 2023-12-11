@@ -195,6 +195,17 @@ if (daysUntilFriday === 0) {
     <script>
       const onSolution = () => {
         /* todo remove this line and start your answer */
+        let day = +prompt('What day is today (as number betrween 1 - 7)?');
+        switch(day){
+          case 7: alert(`It's ${6 - 0} days until Friday!`);break;
+          case 1: alert(`It's ${6 - 1} days until Friday!`);break;
+          case 2: alert(`It's ${6 - 2} days until Friday!`);break;
+          case 3: alert(`It's ${6 - 3} days until Friday!`);break;
+          case 4: alert(`It's ${6 - 4} days until Friday!`);break;
+          case 5: alert(`It's ${6 - 5} days until Friday!`);alert('Friday is tomorrow');break;
+          case 6: alert(`It's ${6 - 6} days until Friday!`);break;
+          default: alert(" is it maayan calendar day or what?");
+        }
       };
     </script>
     <script>
