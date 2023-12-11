@@ -130,17 +130,15 @@
     </section>
 
     <script src="src/menu.min.js"></script>
-    <script src="src/util.min.js"></script>
+    <script src="src/util.min.js"></script> 
     <script src="src/prism.min.js"></script>
     <script>
       const onSolution = () => {
         /* todo remove this line and start your answer */
-        let isUserAllowPermissions = confirm('Are you?');
-        if(isUserAllowPermissions){
-          alert('Yes');
-        }else{
-          alert('No ')
-        }
+         let numA = +prompt("Enter num A:");
+         let numB = +prompt('Enter num B:');
+         alert(`${numA} * ${numA} = ${Math.pow(numA, 2)}`);
+         alert(`${numA} with exponent power of ${numB} is ${Math.pow(numA, numB)}`);
       };
     </script>
     <script>
